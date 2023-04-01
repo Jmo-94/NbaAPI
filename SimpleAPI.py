@@ -21,25 +21,25 @@ nbateam=[]
 firstName=[]
 lastname=[]
 
-Name = range((len(final['data'])))
-for value in Name:
-	firstName.append((final['data'][value]['first_name']))
+# Name = range((len(final['data'])))
+# for value in Name:
+# 	firstName.append((final['data'][value]['first_name']))
 
 
-last = range((len(final['data'])))
-for value in last:
- 	lastname.append((final)['data'][value]['last_name'])
+# last = range((len(final['data'])))
+# for value in last:
+#  	lastname.append((final)['data'][value]['last_name'])
 
-team = range((len(final['data'])))
-for value in team:
-	nbateam.append((final['data'][value]['team']['full_name']))
+# team = range((len(final['data'])))
+# for value in team:
+# 	nbateam.append((final['data'][value]['team']['full_name']))
 
-Zipped = pd.DataFrame(list(zip(firstName,lastname,nbateam)),
-columns = ['First','Last','Team'])
+# Zipped = pd.DataFrame(list(zip(firstName,lastname,nbateam)),
+# columns = ['First','Last','Team'])
 
-pd.set_option('display.max_rows', None)
+# pd.set_option('display.max_rows', None)
 
-print(Zipped.to_string(index=False))
+# print(Zipped.to_string(index=False))
 
 
 
