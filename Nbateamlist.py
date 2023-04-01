@@ -1,5 +1,4 @@
 import requests,json
-import pandas as pd
 from api_keys import Get_Your_Own_Key
 
 url = "https://free-nba.p.rapidapi.com/teams"
